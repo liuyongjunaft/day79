@@ -1,0 +1,18 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: server-sentinel-client
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.106.179.74:8848
+    sentinel:
+      transport:
+        dashboard: 47.106.179.74:8178
+feign:
+  okhttp:
+    enabled: true
+  sentinel:
+    enabled: true
