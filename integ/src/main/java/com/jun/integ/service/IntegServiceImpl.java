@@ -1,4 +1,4 @@
-package com.jun.integ.service.Impl;
+package com.jun.integ.service;
 
 import com.jun.integ.domain.entity.Score;
 import com.jun.integ.mapper.ScoreMapper;

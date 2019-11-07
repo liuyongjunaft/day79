@@ -21,6 +21,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.jun</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
         </dependency>
@@ -28,7 +33,11 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
         </dependency>
-
+        <!--导入dubbo-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-dubbo</artifactId>
+        </dependency>
         <!-- 主要增加 HikariCP 依赖 -->
         <dependency>
             <groupId>com.zaxxer</groupId>
