@@ -7,7 +7,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.jun.integ.mapper")
 public class IntegApplication {
 
     public static void main(String[] args) {
